@@ -1248,7 +1248,7 @@ public class CrazyCrates {
     public void setNewPlayerKeys(Player player) {
         if (giveNewPlayersKeys) {// Checks if any crate gives new players keys and if not then no need to do all this stuff.
             String uuid = player.getUniqueId().toString();
-            if (player.hasPlayedBefore()) {
+            if (!(player.hasPlayedBefore())) {
                 for (Crate crate : getCrates()) {
                     if (crate.doNewPlayersGetKeys()) {
                         Files.DATA.getFile().set("Players." + uuid + "." + crate, crate.getNewPlayerKeys());
