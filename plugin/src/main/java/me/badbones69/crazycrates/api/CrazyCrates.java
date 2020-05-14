@@ -264,7 +264,7 @@ public class CrazyCrates {
                     altPrize));
                 }
                 int newPlayersKeys = file.getInt("Crate.StartingKeys");
-                if (giveNewPlayersKeys = false) {
+                if (giveNewPlayersKeys == false) {
                     if (newPlayersKeys > 0) {
                         giveNewPlayersKeys = true;
                     }
