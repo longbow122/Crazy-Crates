@@ -62,7 +62,7 @@
     	<dependency>
     		<groupId>com.github.longbow122</groupId>
     		<artifactId>Crazy-Crates</artifactId>
-    		<version>Tag</version>
+    		<version>1e5b8fb1ce</version>
     	</dependency>
     </dependencies>
     <repositories>
